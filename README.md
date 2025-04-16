@@ -1,39 +1,34 @@
-# Portfólio Pessoal 📁
+📁 Portfólio Pessoal
+Este é o meu portfólio pessoal, onde apresento um pouco sobre mim, meus projetos e também disponibilizo meu currículo para download. O site é totalmente responsivo e foi desenvolvido com HTML, CSS e JavaScript.
 
-Bem-vindo ao meu portfólio pessoal! Este repositório foi criado para demonstrar conceitos fundamentais de UI/UX design, responsividade e a criação de interfaces intuitivas, utilizando HTML, CSS e JavaScript.
-
-# Acesse o projeto 🌐
-
+🌐 Acesse o projeto
 🔗 Link do site: https://luaansoares.github.io/Prazer_sou_Luan/
 
-📂 Código-fonte no GitHub: https://github.com/luaansoares/Prazer_sou_Luan.git
+📂 Código-fonte no GitHub: Ver repositório
 
-# Objetivo 🎯
+🚀 Tecnologias usadas
+HTML5
 
-Este portfólio tem como objetivo me apresentar de forma clara e objetiva, reunindo informações sobre meus conhecimentos, interesses e os projetos que venho desenvolvendo. É um espaço onde compartilho um pouco da minha trajetória e das tecnologias que estudo e aplico no dia a dia.
+CSS3
 
+JavaScript
 
-# Tecnologias usadas 🚀
+ScrollReveal para animações ao rolar a página
 
-- HTML5
-- CSS3
-- JavaScript
-- ScrollReveal para animações ao rolar a página
-- EmailJS para envio de mensagens por formulário
+EmailJS para envio de mensagens por formulário
 
-# Funcionalidades 📄
+📄 Funcionalidades
+Exibição de informações pessoais e projetos
 
--Exibição de informações pessoais e projetos
--Download do currículo
--Formulário de contato funcional via EmailJS
--Layout responsivo para dispositivos móveis e desktops
+Download do currículo
 
-# Contato 📬
+Formulário de contato funcional via EmailJS
 
-Sinta-se à vontade para entrar em contato! Se você tem sugestões ou melhorias, sinta-se à vontade para abrir uma issue ou enviar um pull request
+Layout responsivo para dispositivos móveis e desktops
+
+📬 Contato
+Se quiser trocar uma ideia ou tiver alguma dúvida:
 
 Email: luandev185@gmail.com
-
 LinkedIn: www.linkedin.com/in/luaansoaresdev
-
 Instagram: instagram.com/luaankk
