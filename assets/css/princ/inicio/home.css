@@ -295,7 +295,13 @@ h3 {
 /*MIDIA query*/
 
 @media (max-width: 600px){
-
+    body{
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 
     #conteiner_dados{
         display: flex;
@@ -397,6 +403,12 @@ h3 {
 }
 
 @media  (min-width: 601px) and (max-width: 992px){
+    body{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        ;
+    }
     #conteiner_item{
         
         

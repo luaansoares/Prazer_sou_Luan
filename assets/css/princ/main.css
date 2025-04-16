@@ -5,6 +5,13 @@ main {
     
 }
 
+body {
+    display: flex;
+    background-color: var(--AzulClaro);
+    flex-direction: column;
+    
+}
+
 /*
 .trilho {
     width: 100px;
