@@ -4,14 +4,13 @@ Bem-vindo ao meu portfólio pessoal! Este repositório foi criado para demonstra
 
 # Acesse o projeto 🌐
 
-🔗 Link do site: https://luaansoares.github.io/Prazer_sou_Luan/
+🔗 Link do site: [https://luaansoares.github.io/Prazer_sou_Luan/](https://luaansoares.github.io/Prazer_sou_Luan/){:target="_blank"}
 
-📂 Código-fonte no GitHub: https://github.com/luaansoares/Prazer_sou_Luan.git
+📂 Código-fonte no GitHub: [https://github.com/luaansoares/Prazer_sou_Luan.git](https://github.com/luaansoares/Prazer_sou_Luan.git){:target="_blank"}
 
 # Objetivo 🎯
 
 Este portfólio tem como objetivo me apresentar de forma clara e objetiva, reunindo informações sobre meus conhecimentos, interesses e os projetos que venho desenvolvendo. É um espaço onde compartilho um pouco da minha trajetória e das tecnologias que estudo e aplico no dia a dia.
-
 
 # Tecnologias usadas 🚀
 
@@ -23,17 +22,17 @@ Este portfólio tem como objetivo me apresentar de forma clara e objetiva, reuni
 
 # Funcionalidades 📄
 
--Exibição de informações pessoais e projetos
--Download do currículo
--Formulário de contato funcional via EmailJS
--Layout responsivo para dispositivos móveis e desktops
+- Exibição de informações pessoais e projetos
+- Download do currículo
+- Formulário de contato funcional via EmailJS
+- Layout responsivo para dispositivos móveis e desktops
 
 # Contato 📬
 
-Sinta-se à vontade para entrar em contato! Se você tem sugestões ou melhorias, sinta-se à vontade para abrir uma issue ou enviar um pull request
+Sinta-se à vontade para entrar em contato! Se você tem sugestões ou melhorias, sinta-se à vontade para abrir uma issue ou enviar um pull request.
 
-Email: luandev185@gmail.com
+Email: [luandev185@gmail.com](mailto:luandev185@gmail.com){:target="_blank"}
 
-LinkedIn: www.linkedin.com/in/luaansoaresdev
+LinkedIn: [www.linkedin.com/in/luaansoaresdev](https://www.linkedin.com/in/luaansoaresdev){:target="_blank"}
 
-Instagram: [instagram.com/luaankk](https://www.instagram.com/luaankk/)
+Instagram: [instagram.com/luaankk](https://www.instagram.com/luaankk){:target="_blank"}
