@@ -1,0 +1,148 @@
+#conteiner_conhecimentos{
+    grid-column: 1 / -1;
+    height: 90dvh;
+    grid-row: 4;
+    background-color: var(--AzulMedio);
+    overflow-y: hidden;
+    height: auto;
+    
+
+    h1{
+        color: var(--Branco);
+        text-align: center;
+        font-size: 4em;
+        margin-top: 50px;
+    }
+}
+
+#meus_conhecimentos{
+    
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center; 
+    flex-wrap: wrap;
+    gap: 80px;
+    width: 80%;
+    min-height: 70vh; 
+
+    height: auto;
+    
+    margin: 0 auto;
+    margin-bottom: 20px; 
+}
+
+.itens_conhecimentos{
+    background-color: var(--AzulClaro);
+    display: flex;
+    box-shadow: -5px 5px 10px rgba(0, 0, 0, 0.337);
+    border-radius: 10px;
+    min-height: 300px;
+    max-height: 300px;
+    min-width: 300px;
+    max-width: 300px;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.itens_conhecimentos:hover{
+    background-color: var(--azulEscuro);
+    transition: 0.5s;
+    box-shadow: -7px 5px 10px rgba(0, 0, 0, 0.337);
+}
+
+
+
+.conteudo_conhecimento{
+    height: 100%;
+    width: 80%;
+    
+    
+
+    i{
+        font-size: 5em;
+        padding: 10px;
+        margin-left: -10px;
+    }
+
+    h4{
+        margin-top: 5px;
+        font-size: 1.5em;
+        color: var(--Branco);
+        
+    }
+
+    p {
+        font-size: 13px;
+        margin-top: 5px;
+        color: var(--Branco);
+    }
+
+    .fa-html5{
+        color: var(--Html);
+    }
+
+    .fa-css3-alt{
+        color: var(--Css);
+    }
+
+    .fa-js{
+        color: var(--Js);
+    }
+}
+
+
+@media (max-width: 600px){
+    #conteiner_conhecimentos{
+        h1{
+            font-size: 35px;
+            padding-bottom: 50px;
+        }
+    }
+        
+    
+}
+
+@media  (min-width: 768px) and (max-width: 992px){
+    #meus_conhecimentos{
+        
+            margin-top: 20px;
+            
+            display: flex;
+            justify-content: center;
+            align-items: center;
+    }
+
+    .itens_conhecimentos{
+        
+        min-height: 500px;
+        max-height: 500px;
+        min-width: 750px;
+        max-width: 750px;
+    }
+
+    .conteudo_conhecimento{
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        flex-direction: column;
+        
+        min-height: 400px;
+        max-height: 400px;
+        min-width: 650px;
+        max-width: 650px;
+
+        .fa-brands{
+            
+            font-size: 150px;
+        }
+
+        h4{
+            font-size: 50px;
+        }
+
+        p {
+            font-size: 23px;
+        }
+    }
+}

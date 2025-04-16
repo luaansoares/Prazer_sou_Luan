@@ -1,0 +1,125 @@
+main {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    overflow-x: hidden;  
+    
+}
+
+/*
+.trilho {
+    width: 100px;
+    height: 50px;
+    background-color: var(--Branco);
+    position: fixed; /* Removi o 'position: relative;' duplicado 
+    left: 10px;
+    bottom: 20px;
+    border-radius: 250px;
+    cursor: pointer;
+    z-index: 99911;
+}
+
+.trilho .indicador_trilho {
+    width: 50px;
+    height: 50px;
+    background-color: var(--Laranja);
+    border-radius: 50%;
+    transform: scale(.9);
+    position: absolute;
+    left: 0;
+    transition: .5s;
+}
+
+.trilho.dark .indicador_trilho {
+    left: 50px; 
+    background-color: var(--Preto);
+}
+
+.trilho.dark {
+    background-color: var(--Branco);
+}
+
+body.dark {
+    background-color: var(--Preto);
+}
+
+*/
+
+.scroolTop{
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    width: 60px;
+    height: 60px;
+    background-color: white;
+    border-radius: 50%;
+    background-size: 40px;
+    background-position: center;
+    cursor: pointer;
+    z-index: 10000;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.scroolTop.active{
+    visibility: visible;
+    opacity: 1;
+}
+
+body > #botao_scroll {
+    z-index: 7;
+    
+    position: fixed;
+    bottom: 20px;
+    right: 10px;
+    height: 70px;
+    width: 70px;
+    display: none;
+    place-items: center;
+    border-radius: 50%;
+    cursor: pointer;
+}
+body > #botao_scroll > #progresso{
+    display: block;
+    height: calc(100% - 15px);
+    width: calc(100% - 15px);
+    background-color: var(--AzulClaro);
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    color: var(--Branco);
+    font-size: 25px;
+}
+
+@media (max-width: 601px) {
+    #botao_scroll {
+        display: none;
+    }
+}
+.mensagem-alerta {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    transform: translate(-50%, -50%);
+    background-color: var(--Laranja); 
+    color: var(--Branco);
+    padding: 16px 24px;
+    border-radius: 12px;
+    font-size: 1rem;
+    box-shadow: -5px 5px 10px rgba(0, 0, 0, 0.337);
+    z-index: 1000;
+    display: none;
+    animation: slideInOut 3s ease forwards;
+    }
+
+.mensagem-alerta.erro {
+    background-color: var(--Html); 
+    }
+
+@keyframes slideInOut {
+        0% { opacity: 0; transform: translateX(-20px); }
+        10% { opacity: 1; transform: translateX(0); }
+        90% { opacity: 1; transform: translateX(0); }
+        100% { opacity: 0; transform: translateX(-20px); }
+}
+
+

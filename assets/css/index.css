@@ -1,0 +1,19 @@
+@import './header/header.css';
+
+@import './princ/main.css';
+
+@import './princ/conhecimentos/conhecimentos.css';
+
+@import './princ/contatos/contatos.css';
+
+@import './princ/eu/eu.css';
+
+@import './princ/inicio/home.css';
+
+@import './princ/projetos/projetos.css';
+
+@import './footer/footer.css';
+
+@import './header/header.css';
+
+@import './mundo/importacao.css';
