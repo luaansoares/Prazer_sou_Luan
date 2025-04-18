@@ -99,6 +99,13 @@
 
 
 @media (max-width: 600px) {
+
+    #conteiner_eu{
+        display: flex;
+        justify-content: center;
+        
+    }
+    
     #item_texto{
         max-width: 100px;
         
