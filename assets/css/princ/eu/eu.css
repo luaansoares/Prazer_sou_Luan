@@ -46,6 +46,7 @@
     min-width: 450px;
 
     img {
+        border-radius: 50%;
         height: 400px;
         animation: flutuar 3s ease-in-out infinite;
     }

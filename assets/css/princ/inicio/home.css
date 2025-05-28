@@ -131,7 +131,7 @@ h3 {
     min-width: 370px;
 
     img {
-        
+        border-radius: 50%;
         height: 400px;
         animation: flutuar 3s ease-in-out infinite;
     }
@@ -461,6 +461,7 @@ h3 {
         img{
             max-width: 80%;
             max-height: 70%;
+            
         }
     }
     .efeito_home, .efeito_img, .efeito_titulo, .efeito_titulo2, .efeito_sobre, .efeito_delay, .efeito_delay_1, .efeito_delay_2 {
