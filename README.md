@@ -17,7 +17,7 @@ Este portfólio tem como objetivo me apresentar de forma clara e objetiva, reuni
 - **CSS3**
 - **JavaScript**
 - **ScrollReveal**: Para animações ao rolar a página
-- **EmailJS**: ara envio de mensagens por formulário
+- **EmailJS**: Para envio de mensagens por formulário
 
 ## Funcionalidades 📄
 
